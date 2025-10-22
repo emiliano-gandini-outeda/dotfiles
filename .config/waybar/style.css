@@ -1,9 +1,8 @@
 @import "../omarchy/current/theme/waybar.css";
 
 * {
-  background-color: rgba(30, 30, 30, 0.5);;
+  background:transparent;
   color: @foreground;
-
   border: none;
   border-radius: 8;
   min-height: 0;
@@ -74,6 +73,7 @@ tooltip {
 }
 
 #waybar {
+  background-color: rgba(30, 30, 30, 0.5);
   margin: 10;
 }
 
