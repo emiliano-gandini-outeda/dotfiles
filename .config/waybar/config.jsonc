@@ -44,7 +44,7 @@
     }
   },
   "custom/window": {
-    "exec": "~/.config/waybar/scripts/window-title.sh",
+    "exec": "~/.config/waybar/scripts/window-title-signal.sh",
     "interval": 0,
     "tooltip": false
   },
