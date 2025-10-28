@@ -1,3 +1,3 @@
 function search
-    fzf --preview='cat {}'
+    fzf --preview='cat {}' | wl-copy
 end
