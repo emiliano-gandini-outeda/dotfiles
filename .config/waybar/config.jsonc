@@ -7,7 +7,7 @@
   "margin-left":4,
   "margin-right":4,
   "height": 26,
-  "modules-left": ["custom/omarchy", "hyprland/workspaces", "clock"],
+  "modules-left": ["custom/omarchy", "hyprland/workspaces", "clock", "custom/mpris-spacer", "idle_inhibitor", "custom/mpris-spacer"],
   "modules-center": ["custom/window","custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "mpris",
@@ -42,6 +42,15 @@
       "4": [],
       "5": []
     }
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+		  "activated": "",
+		  "deactivated": ""
+    },
+    "tooltip" : false,
+    "timeout": -1,  // -1 = inhibit indefinitely
   },
   "custom/window": {
     "exec": "~/.config/waybar/scripts/window-title-signal.sh",
